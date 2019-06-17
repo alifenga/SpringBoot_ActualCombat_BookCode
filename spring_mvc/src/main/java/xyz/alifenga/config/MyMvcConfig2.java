@@ -1,14 +1,19 @@
 package xyz.alifenga.config;
 
+import com.sun.org.apache.regexp.internal.REUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
+import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
+import xyz.alifenga.converter.MyMessageConverter;
+
+import java.util.List;
 
 /**
  * MVC配置
@@ -39,7 +44,10 @@ public class MyMvcConfig2 extends WebMvcConfigurerAdapter {
         //过滤级别最高
         registry.setOrder(Ordered.HIGHEST_PRECEDENCE);
         registry.addViewController("/").setViewName("/index");
-        registry.addViewController("/toUpload").setViewName("upload");
+        registry.addViewController("/index").setViewName("/index");
+        registry.addViewController("/toUpload").setViewName("/upload");
+        registry.addViewController("/converter").setViewName("/converter");
+        registry.addViewController("/sse").setViewName("/sse");
     }
 
     /**
@@ -50,8 +58,7 @@ public class MyMvcConfig2 extends WebMvcConfigurerAdapter {
      */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/assets");
-        super.addResourceHandlers(registry);
+        registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/assets/");
     }
 
     /**
@@ -77,6 +84,7 @@ public class MyMvcConfig2 extends WebMvcConfigurerAdapter {
 
     /**
      * 不忽略请求路径"."后面的参数
+     *
      * @param configurer
      */
     @Override
@@ -86,12 +94,33 @@ public class MyMvcConfig2 extends WebMvcConfigurerAdapter {
 
     /**
      * 文件上传配置
+     *
      * @return
      */
     @Bean
-    public MultipartResolver multipartResolver(){
+    public MultipartResolver multipartResolver() {
         CommonsMultipartResolver resolver = new CommonsMultipartResolver();
         resolver.setMaxUploadSize(1000000);
         return resolver;
+    }
+
+    /**
+     * 添加一个HttpMessageConverter
+     *
+     * @param converters
+     */
+    @Override
+    public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
+        converters.add(converter());
+    }
+
+    /**
+     * 自定义的HttpMessageConverter
+     *
+     * @return
+     */
+    @Bean
+    public MyMessageConverter converter() {
+        return new MyMessageConverter();
     }
 }
