@@ -7,16 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0a4695-511c-4522-b4fd-7f04a9a3e995" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/java/xyz/alifenga/controller/ConverterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/java/xyz/alifenga/controller/SeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/java/xyz/alifenga/converter/MyMessageConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/resource/assets/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/resource/views/converter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_mvc/src/main/resource/views/sse.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring_mvc/src/main/java/xyz/alifenga/config/MyMvcConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc/src/main/java/xyz/alifenga/config/MyMvcConfig2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_demo/src/main/java/xyz/alifenga/SpringBootDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_demo/src/main/java/xyz/alifenga/SpringBootDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_boot_demo/src/test/java/xyz/alifenga/SpringBootDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_boot_demo/src/test/java/xyz/alifenga/SpringBootDemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_mvc/target/classes/xyz/alifenga/config/MyMvcConfig2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc/target/classes/xyz/alifenga/config/MyMvcConfig2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring_mvc/target/spring_mvc/WEB-INF/classes/xyz/alifenga/config/MyMvcConfig2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring_mvc/target/spring_mvc/WEB-INF/classes/xyz/alifenga/config/MyMvcConfig2.class" afterDir="false" />
     </list>
@@ -31,59 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_mvc/src/main/java/xyz/alifenga/controller/SeeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.5.RELEASE/spring-web-4.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.1.5.RELEASE/spring-webmvc-4.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring_mvc/src/main/resource/views/sse.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_mvc/src/main/java/xyz/alifenga/config/MyMvcConfig2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -220,85 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alifenga" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alifenga" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alifenga" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="alifenga" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -307,7 +172,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560780127849" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560780861594" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -380,6 +245,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring_boot_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="xyz.alifenga.SpringBootDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -483,7 +355,7 @@
       <workItem from="1560481446648" duration="61000" />
       <workItem from="1560664342970" duration="772000" />
       <workItem from="1560732599057" duration="117000" />
-      <workItem from="1560775243638" duration="5119000" />
+      <workItem from="1560775243638" duration="5576000" />
     </task>
     <task id="LOCAL-00001" summary="文件上传配置">
       <created>1560438189652</created>
@@ -492,11 +364,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560438189652</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20190617">
+      <created>1560780422431</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560780422432</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49236000" />
+    <option name="totallyTimeSpent" value="49693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,9 +388,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -521,7 +399,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22827938" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22827938" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39863715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -634,7 +512,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="文件上传配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件上传配置" />
+    <MESSAGE value="20190617" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190617" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spring_base/src/main/java/xyz/alifenga/page25/LogAspect.java">
@@ -953,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring_mvc/src/main/resource/views/sse.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="284">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
         </state>
       </provider>
     </entry>
