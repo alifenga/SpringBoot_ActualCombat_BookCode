@@ -1,0 +1,38 @@
+2019-06-18 22:00:23.715  INFO 2092 --- [restartedMain] xyz.alifenga.SpringBootDemoApplication   : Starting SpringBootDemoApplication on lifeng with PID 2092 (D:\workspace\IDEAWorkspace\study\spring_boot_demo\target\classes started by Administrator in D:\workspace\IDEAWorkspace\study)
+2019-06-18 22:00:23.719  INFO 2092 --- [restartedMain] xyz.alifenga.SpringBootDemoApplication   : No active profile set, falling back to default profiles: default
+2019-06-18 22:00:23.791  INFO 2092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 22:00:23.791  INFO 2092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 22:00:26.001  INFO 2092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 22:00:26.028  INFO 2092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 22:00:26.028  INFO 2092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 22:00:26.182  INFO 2092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-18 22:00:26.182 DEBUG 2092 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-06-18 22:00:26.182  INFO 2092 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2390 ms
+2019-06-18 22:00:26.450 DEBUG 2092 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-06-18 22:00:26.604  INFO 2092 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 22:00:26.635 DEBUG 2092 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-06-18 22:00:26.711 DEBUG 2092 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2019-06-18 22:00:26.730 DEBUG 2092 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-06-18 22:00:26.741 DEBUG 2092 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-06-18 22:00:26.886  INFO 2092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 22:00:26.961  INFO 2092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 22:00:26.966  INFO 2092 --- [restartedMain] xyz.alifenga.SpringBootDemoApplication   : Started SpringBootDemoApplication in 4.028 seconds (JVM running for 5.707)
+2019-06-18 22:00:40.977  INFO 6468 --- [restartedMain] xyz.alifenga.SpringBootDemoApplication   : Starting SpringBootDemoApplication on lifeng with PID 6468 (D:\workspace\IDEAWorkspace\study\spring_boot_demo\target\classes started by Administrator in D:\workspace\IDEAWorkspace\study)
+2019-06-18 22:00:40.982  INFO 6468 --- [restartedMain] xyz.alifenga.SpringBootDemoApplication   : No active profile set, falling back to default profiles: default
+2019-06-18 22:00:41.050  INFO 6468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-18 22:00:41.050  INFO 6468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-18 22:00:43.011  INFO 6468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-18 22:00:43.042  INFO 6468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-18 22:00:43.043  INFO 6468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-06-18 22:00:43.191  INFO 6468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-18 22:00:43.191 DEBUG 6468 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-06-18 22:00:43.191  INFO 6468 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2141 ms
+2019-06-18 22:00:43.327 DEBUG 6468 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-06-18 22:00:43.491  INFO 6468 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-18 22:00:43.504 DEBUG 6468 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-06-18 22:00:43.563 DEBUG 6468 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2019-06-18 22:00:43.601 DEBUG 6468 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-06-18 22:00:43.613 DEBUG 6468 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-06-18 22:00:43.739  INFO 6468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-18 22:00:43.812  INFO 6468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-18 22:00:43.817  INFO 6468 --- [restartedMain] xyz.alifenga.SpringBootDemoApplication   : Started SpringBootDemoApplication in 3.388 seconds (JVM running for 4.747)
