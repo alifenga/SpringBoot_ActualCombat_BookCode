@@ -1,0 +1,3 @@
+# 注册自动配置类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+xyz.alifenga.HelloServiceAutoConfiguration
