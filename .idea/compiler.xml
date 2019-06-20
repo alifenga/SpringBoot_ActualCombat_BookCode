@@ -10,6 +10,7 @@
         <module name="spring_boot_demo" />
         <module name="spring_boot_starter_hello" />
         <module name="spring_boot_starter_test" />
+        <module name="spring_boot_web" />
         <module name="spring_mvc" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="spring_boot_demo" target="1.8" />
       <module name="spring_boot_starter_hello" target="1.8" />
       <module name="spring_boot_starter_test" target="1.8" />
+      <module name="spring_boot_web" target="1.8" />
       <module name="spring_mvc" target="1.8" />
       <module name="spring_mvc_demo" target="1.8" />
       <module name="spring_senior" target="1.8" />
@@ -27,6 +29,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring_boot_demo" options="-parameters" />
       <module name="spring_boot_starter_test" options="-parameters" />
+      <module name="spring_boot_web" options="-parameters" />
     </option>
   </component>
 </project>
