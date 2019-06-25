@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring_boot_starter_hello/spring_boot_starter_hello.iml" filepath="$PROJECT_DIR$/spring_boot_starter_hello/spring_boot_starter_hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_boot_starter_test/spring_boot_starter_test.iml" filepath="$PROJECT_DIR$/spring_boot_starter_test/spring_boot_starter_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_boot_web/spring_boot_web.iml" filepath="$PROJECT_DIR$/spring_boot_web/spring_boot_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_websocket/spring_boot_websocket.iml" filepath="$PROJECT_DIR$/spring_boot_websocket/spring_boot_websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_mvc/spring_mvc.iml" filepath="$PROJECT_DIR$/spring_mvc/spring_mvc.iml" />
     </modules>
   </component>
