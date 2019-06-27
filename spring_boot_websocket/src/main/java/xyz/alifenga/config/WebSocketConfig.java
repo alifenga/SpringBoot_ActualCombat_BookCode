@@ -21,20 +21,23 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     /**
      * 注册STOMP协议的节点(endpoint),并映射指定的URL
      * 注册一个STOMP的endpoint,并且使用SockJS协议
+     * 注册一个名为endpointChat的endPoint
      * @param registry
      */
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/endpointWisely").withSockJS();
+        registry.addEndpoint("/endpointChat").withSockJS();
     }
 
     /**
      * 配置消息代理Message Broker
-     * 广播式应配置一个/topic消息代理
+     * 广播式应配置一个/topic消息代理("/queue"无需填写)
+     * 点对点应增加"/queue"消息代理
      * @param registry
      */
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
-        registry.enableSimpleBroker("/topic");
+        registry.enableSimpleBroker("/queue","/topic");
     }
 }
